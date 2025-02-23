@@ -51,9 +51,6 @@ const Calculator = () => {
         <Display expression={expression} result={result} />
         <Keypad onButtonPress={handleButtonPress} />
       </div>
-      <div className="watermark">
-        Desenvolvido por Cristian Nascimento
-      </div>
     </div>
   );
 };
